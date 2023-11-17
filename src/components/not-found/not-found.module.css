@@ -1,0 +1,19 @@
+.container {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 90px;
+  color: aliceblue;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px #fff;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 50px;
+  color: aliceblue;
+  text-align: center;
+}

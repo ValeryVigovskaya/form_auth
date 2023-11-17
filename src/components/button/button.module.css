@@ -1,0 +1,21 @@
+.button_container {
+  margin-top: 20px;
+}
+
+.button {
+  background: transparent;
+  width: 200px;
+  height: 30px;
+  border: 1px solid #fff;
+  min-height: 30px;
+  color: #fff;
+  font-family: "Bicubik", "Segoe UI", "Roboto";
+  letter-spacing: 2.5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 520px) {
+  .button {
+    width: 150px;
+  }
+}

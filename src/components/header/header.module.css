@@ -1,0 +1,22 @@
+.header {
+  max-width: 80%;
+  margin: 10% auto 0;
+}
+
+.header_title {
+  text-align: center;
+  color: #fff;
+  text-shadow:
+    0 0 1px #fff, 0 0 2px #fff,
+    0 0 5px #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 40px;
+  letter-spacing: 2.5px;
+}
+
+@media screen and (max-width: 520px) {
+  .header_title {
+    font-size: 20px;
+  }
+}

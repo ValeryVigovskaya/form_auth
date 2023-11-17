@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './app/app';
 import reportWebVitals from './reportWebVitals';
-
+import { BrowserRouter as Router } from 'react-router-dom';
+import { mockUserData, data } from './api/apiMock';
+mockUserData(data.data);
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
+  <Router>
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>
+  </Router>
 );
 
 // If you want to start measuring performance in your app, pass a function
