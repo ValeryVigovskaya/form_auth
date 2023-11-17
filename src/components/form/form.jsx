@@ -34,7 +34,7 @@ export const Form = ({ userData }) => {
   };
 
   function onClickForgotPass() {
-    navigate("/forgot-password", { replace: true });
+    navigate("/form_auth/forgot-password", { replace: true });
   }
   console.log(demoData);
 

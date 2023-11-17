@@ -16,13 +16,13 @@ const App = () => {
   return (
     <div className={style.app}>
       <Routes location={background || location}>
-        <Route path={"/"} element={<HomePage />} />
-        <Route path={"/forgot-password"} element={<ForgotPass />} />
+        <Route path={"/form_auth/"} element={<HomePage />} />
+        <Route path={"/form_auth/forgot-password"} element={<ForgotPass />} />
       </Routes>
       {background && (
         <Routes>
           <Route
-            path={"/login/success"}
+            path={"/form_auth/login/success"}
             element={<Modal onClose={closeModal} />}
           />
         </Routes>
