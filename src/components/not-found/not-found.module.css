@@ -17,3 +17,15 @@
   color: aliceblue;
   text-align: center;
 }
+
+@media screen and (max-width: 520px) {
+  .title {
+    font-size: 50px;
+    text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff;
+  }
+  
+  .subtitle {
+    font-size: 20px;
+
+  }
+}

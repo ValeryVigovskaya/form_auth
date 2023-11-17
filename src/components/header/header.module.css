@@ -13,10 +13,14 @@
   margin: 0;
   font-size: 40px;
   letter-spacing: 2.5px;
+  line-height: 150%;
 }
 
 @media screen and (max-width: 520px) {
   .header_title {
     font-size: 20px;
+    text-shadow:
+    0 0 1px #fff, 0 0 1px #fff,
+    0 0 1px #fff;
   }
 }
